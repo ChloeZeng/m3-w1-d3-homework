@@ -1,0 +1,26 @@
+{
+  "name": "m3-w1-d3-homework",
+  "version": "1.0.0",
+  "description": "WEB 602 Back-end",
+  "main": "index.js",
+"scripts": {
+  "start": "node server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChloeZeng/m3-w1-d3-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChloeZeng/m3-w1-d3-homework/issues"
+  },
+  "homepage": "https://github.com/ChloeZeng/m3-w1-d3-homework#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "pug": "^3.0.3"
+  }
+}

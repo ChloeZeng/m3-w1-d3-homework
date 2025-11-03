@@ -1,0 +1,19 @@
+//- views/includes/components.pug
+//- 可复用的「一条留言」组件
+mixin post(profilepic, name, date, message, foodie, bio)
+  li
+    #posts
+      .profile
+        // 点击头像时打开弹窗，用 data-* 存资料
+        img.profile-img(
+          src=profilepic,
+          alt="Profile",
+          data-name=name,
+          data-foodie=foodie,
+          data-bio=bio
+        )
+        span
+          strong #{name} —
+          |  #{date}
+          a.ml-1.text-success(href="#") REPLY
+      p #{message}
